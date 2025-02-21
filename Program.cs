@@ -9,7 +9,7 @@ public static class Program
 	{
 		const string WtProcName = "WindowsTerminal";
 
-		var isOn = args.Contains("on", StringComparer.OrdinalIgnoreCase);
+		var isOn = args.Contains("show", StringComparer.OrdinalIgnoreCase);
 
 		var processes = Process
 			.GetProcesses()
